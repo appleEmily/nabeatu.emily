@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15112B7234A4827002F9BE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15112B6234A4827002F9BE9 /* AppDelegate.swift */; };
+		A15112B9234A4827002F9BE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15112B8234A4827002F9BE9 /* SceneDelegate.swift */; };
+		A15112BB234A4827002F9BE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15112BA234A4827002F9BE9 /* ViewController.swift */; };
+		A15112BE234A4827002F9BE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15112BC234A4827002F9BE9 /* Main.storyboard */; };
+		A15112C0234A482C002F9BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15112BF234A482C002F9BE9 /* Assets.xcassets */; };
+		A15112C3234A482C002F9BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15112C1234A482C002F9BE9 /* LaunchScreen.storyboard */; };
+		A15112CE234A482D002F9BE9 /* nabeatu_emilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15112CD234A482D002F9BE9 /* nabeatu_emilyTests.swift */; };
+		A15112D9234A482D002F9BE9 /* nabeatu_emilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15112D8234A482D002F9BE9 /* nabeatu_emilyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A15112CA234A482D002F9BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15112AB234A4827002F9BE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15112B2234A4827002F9BE9;
+			remoteInfo = nabeatu.emily;
+		};
+		A15112D5234A482D002F9BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15112AB234A4827002F9BE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15112B2234A4827002F9BE9;
+			remoteInfo = nabeatu.emily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A15112B3234A4827002F9BE9 /* nabeatu.emily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nabeatu.emily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15112B6234A4827002F9BE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A15112B8234A4827002F9BE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A15112BA234A4827002F9BE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A15112BD234A4827002F9BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A15112BF234A482C002F9BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A15112C2234A482C002F9BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A15112C4234A482C002F9BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15112C9234A482D002F9BE9 /* nabeatu.emilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nabeatu.emilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15112CD234A482D002F9BE9 /* nabeatu_emilyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nabeatu_emilyTests.swift; sourceTree = "<group>"; };
+		A15112CF234A482D002F9BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15112D4234A482D002F9BE9 /* nabeatu.emilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nabeatu.emilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15112D8234A482D002F9BE9 /* nabeatu_emilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nabeatu_emilyUITests.swift; sourceTree = "<group>"; };
+		A15112DA234A482D002F9BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15112B0234A4827002F9BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15112C6234A482D002F9BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15112D1234A482D002F9BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A15112AA234A4826002F9BE9 = {
+			isa = PBXGroup;
+			children = (
+				A15112B5234A4827002F9BE9 /* nabeatu.emily */,
+				A15112CC234A482D002F9BE9 /* nabeatu.emilyTests */,
+				A15112D7234A482D002F9BE9 /* nabeatu.emilyUITests */,
+				A15112B4234A4827002F9BE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A15112B4234A4827002F9BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15112B3234A4827002F9BE9 /* nabeatu.emily.app */,
+				A15112C9234A482D002F9BE9 /* nabeatu.emilyTests.xctest */,
+				A15112D4234A482D002F9BE9 /* nabeatu.emilyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A15112B5234A4827002F9BE9 /* nabeatu.emily */ = {
+			isa = PBXGroup;
+			children = (
+				A15112B6234A4827002F9BE9 /* AppDelegate.swift */,
+				A15112B8234A4827002F9BE9 /* SceneDelegate.swift */,
+				A15112BA234A4827002F9BE9 /* ViewController.swift */,
+				A15112BC234A4827002F9BE9 /* Main.storyboard */,
+				A15112BF234A482C002F9BE9 /* Assets.xcassets */,
+				A15112C1234A482C002F9BE9 /* LaunchScreen.storyboard */,
+				A15112C4234A482C002F9BE9 /* Info.plist */,
+			);
+			path = nabeatu.emily;
+			sourceTree = "<group>";
+		};
+		A15112CC234A482D002F9BE9 /* nabeatu.emilyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A15112CD234A482D002F9BE9 /* nabeatu_emilyTests.swift */,
+				A15112CF234A482D002F9BE9 /* Info.plist */,
+			);
+			path = nabeatu.emilyTests;
+			sourceTree = "<group>";
+		};
+		A15112D7234A482D002F9BE9 /* nabeatu.emilyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A15112D8234A482D002F9BE9 /* nabeatu_emilyUITests.swift */,
+				A15112DA234A482D002F9BE9 /* Info.plist */,
+			);
+			path = nabeatu.emilyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A15112B2234A4827002F9BE9 /* nabeatu.emily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15112DD234A482D002F9BE9 /* Build configuration list for PBXNativeTarget "nabeatu.emily" */;
+			buildPhases = (
+				A15112AF234A4827002F9BE9 /* Sources */,
+				A15112B0234A4827002F9BE9 /* Frameworks */,
+				A15112B1234A4827002F9BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nabeatu.emily;
+			productName = nabeatu.emily;
+			productReference = A15112B3234A4827002F9BE9 /* nabeatu.emily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A15112C8234A482D002F9BE9 /* nabeatu.emilyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15112E0234A482D002F9BE9 /* Build configuration list for PBXNativeTarget "nabeatu.emilyTests" */;
+			buildPhases = (
+				A15112C5234A482D002F9BE9 /* Sources */,
+				A15112C6234A482D002F9BE9 /* Frameworks */,
+				A15112C7234A482D002F9BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15112CB234A482D002F9BE9 /* PBXTargetDependency */,
+			);
+			name = nabeatu.emilyTests;
+			productName = nabeatu.emilyTests;
+			productReference = A15112C9234A482D002F9BE9 /* nabeatu.emilyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A15112D3234A482D002F9BE9 /* nabeatu.emilyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15112E3234A482D002F9BE9 /* Build configuration list for PBXNativeTarget "nabeatu.emilyUITests" */;
+			buildPhases = (
+				A15112D0234A482D002F9BE9 /* Sources */,
+				A15112D1234A482D002F9BE9 /* Frameworks */,
+				A15112D2234A482D002F9BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15112D6234A482D002F9BE9 /* PBXTargetDependency */,
+			);
+			name = nabeatu.emilyUITests;
+			productName = nabeatu.emilyUITests;
+			productReference = A15112D4234A482D002F9BE9 /* nabeatu.emilyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15112AB234A4827002F9BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = emily.com;
+				TargetAttributes = {
+					A15112B2234A4827002F9BE9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A15112C8234A482D002F9BE9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A15112B2234A4827002F9BE9;
+					};
+					A15112D3234A482D002F9BE9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A15112B2234A4827002F9BE9;
+					};
+				};
+			};
+			buildConfigurationList = A15112AE234A4827002F9BE9 /* Build configuration list for PBXProject "nabeatu.emily" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A15112AA234A4826002F9BE9;
+			productRefGroup = A15112B4234A4827002F9BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15112B2234A4827002F9BE9 /* nabeatu.emily */,
+				A15112C8234A482D002F9BE9 /* nabeatu.emilyTests */,
+				A15112D3234A482D002F9BE9 /* nabeatu.emilyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15112B1234A4827002F9BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15112C3234A482C002F9BE9 /* LaunchScreen.storyboard in Resources */,
+				A15112C0234A482C002F9BE9 /* Assets.xcassets in Resources */,
+				A15112BE234A4827002F9BE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15112C7234A482D002F9BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15112D2234A482D002F9BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15112AF234A4827002F9BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15112BB234A4827002F9BE9 /* ViewController.swift in Sources */,
+				A15112B7234A4827002F9BE9 /* AppDelegate.swift in Sources */,
+				A15112B9234A4827002F9BE9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15112C5234A482D002F9BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15112CE234A482D002F9BE9 /* nabeatu_emilyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15112D0234A482D002F9BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15112D9234A482D002F9BE9 /* nabeatu_emilyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A15112CB234A482D002F9BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15112B2234A4827002F9BE9 /* nabeatu.emily */;
+			targetProxy = A15112CA234A482D002F9BE9 /* PBXContainerItemProxy */;
+		};
+		A15112D6234A482D002F9BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15112B2234A4827002F9BE9 /* nabeatu.emily */;
+			targetProxy = A15112D5234A482D002F9BE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A15112BC234A4827002F9BE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15112BD234A4827002F9BE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A15112C1234A482C002F9BE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15112C2234A482C002F9BE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A15112DB234A482D002F9BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A15112DC234A482D002F9BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A15112DE234A482D002F9BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = nabeatu.emily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.nabeatu-emily";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A15112DF234A482D002F9BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = nabeatu.emily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.nabeatu-emily";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A15112E1234A482D002F9BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = nabeatu.emilyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.nabeatu-emilyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nabeatu.emily.app/nabeatu.emily";
+			};
+			name = Debug;
+		};
+		A15112E2234A482D002F9BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = nabeatu.emilyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.nabeatu-emilyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nabeatu.emily.app/nabeatu.emily";
+			};
+			name = Release;
+		};
+		A15112E4234A482D002F9BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = nabeatu.emilyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.nabeatu-emilyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nabeatu.emily;
+			};
+			name = Debug;
+		};
+		A15112E5234A482D002F9BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = nabeatu.emilyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.nabeatu-emilyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nabeatu.emily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15112AE234A4827002F9BE9 /* Build configuration list for PBXProject "nabeatu.emily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15112DB234A482D002F9BE9 /* Debug */,
+				A15112DC234A482D002F9BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15112DD234A482D002F9BE9 /* Build configuration list for PBXNativeTarget "nabeatu.emily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15112DE234A482D002F9BE9 /* Debug */,
+				A15112DF234A482D002F9BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15112E0234A482D002F9BE9 /* Build configuration list for PBXNativeTarget "nabeatu.emilyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15112E1234A482D002F9BE9 /* Debug */,
+				A15112E2234A482D002F9BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15112E3234A482D002F9BE9 /* Build configuration list for PBXNativeTarget "nabeatu.emilyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15112E4234A482D002F9BE9 /* Debug */,
+				A15112E5234A482D002F9BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A15112AB234A4827002F9BE9 /* Project object */;
+}
