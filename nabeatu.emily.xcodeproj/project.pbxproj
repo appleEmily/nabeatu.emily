@@ -15,6 +15,9 @@
 		A15112C3234A482C002F9BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15112C1234A482C002F9BE9 /* LaunchScreen.storyboard */; };
 		A15112CE234A482D002F9BE9 /* nabeatu_emilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15112CD234A482D002F9BE9 /* nabeatu_emilyTests.swift */; };
 		A15112D9234A482D002F9BE9 /* nabeatu_emilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15112D8234A482D002F9BE9 /* nabeatu_emilyUITests.swift */; };
+		A15112E9234A4CE1002F9BE9 /* pari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15112E6234A4CE1002F9BE9 /* pari.jpg */; };
+		A15112EA234A4CE1002F9BE9 /* NYC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15112E7234A4CE1002F9BE9 /* NYC.jpg */; };
+		A15112EB234A4CE1002F9BE9 /* pari2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15112E8234A4CE1002F9BE9 /* pari2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A15112D4234A482D002F9BE9 /* nabeatu.emilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nabeatu.emilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15112D8234A482D002F9BE9 /* nabeatu_emilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nabeatu_emilyUITests.swift; sourceTree = "<group>"; };
 		A15112DA234A482D002F9BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15112E6234A4CE1002F9BE9 /* pari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pari.jpg; sourceTree = "<group>"; };
+		A15112E7234A4CE1002F9BE9 /* NYC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NYC.jpg; sourceTree = "<group>"; };
+		A15112E8234A4CE1002F9BE9 /* pari2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pari2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				A15112B8234A4827002F9BE9 /* SceneDelegate.swift */,
 				A15112BA234A4827002F9BE9 /* ViewController.swift */,
 				A15112BC234A4827002F9BE9 /* Main.storyboard */,
+				A15112E7234A4CE1002F9BE9 /* NYC.jpg */,
+				A15112E6234A4CE1002F9BE9 /* pari.jpg */,
+				A15112E8234A4CE1002F9BE9 /* pari2.jpg */,
 				A15112BF234A482C002F9BE9 /* Assets.xcassets */,
 				A15112C1234A482C002F9BE9 /* LaunchScreen.storyboard */,
 				A15112C4234A482C002F9BE9 /* Info.plist */,
@@ -234,7 +243,10 @@
 			files = (
 				A15112C3234A482C002F9BE9 /* LaunchScreen.storyboard in Resources */,
 				A15112C0234A482C002F9BE9 /* Assets.xcassets in Resources */,
+				A15112EB234A4CE1002F9BE9 /* pari2.jpg in Resources */,
 				A15112BE234A4827002F9BE9 /* Main.storyboard in Resources */,
+				A15112E9234A4CE1002F9BE9 /* pari.jpg in Resources */,
+				A15112EA234A4CE1002F9BE9 /* NYC.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
